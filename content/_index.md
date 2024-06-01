@@ -35,11 +35,12 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        As a research scientist specializing in the intersection of AI and pathology, I am committed to developing robust and efficient diagnostic assistance algorithms that aim to transform the current landscape of pathology. 
         
-        Please reach out to collaborate 😃
+        By integrating fundamental research with clinical practice, my goal is to drive significant breakthroughs in the field, enhancing diagnostic accuracy and patient outcomes. 
+        
+        I am eager to collaborate with fellow researchers and industry experts to advance our understanding and application of AI in pathology, ultimately improving healthcare for all.😃
+
     design:
       columns: '1'
   - block: collection
@@ -63,16 +64,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: collection
     id: news
     content:
@@ -82,7 +83,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 3
       # Filter on criteria
       filters:
         author: ""

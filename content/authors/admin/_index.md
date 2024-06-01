@@ -187,4 +187,4 @@ awards:
 
 ## About Me
 
-Chenglu Zhu is an assistant researcher in Artificial Intelligence & Biomedical Image Analysis Lab(Lin Yang's Lab), School of Engineering, Westlake University. From October 2017 to January 2019, he was a visiting scholar at The University of Adelaide, AU His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
+Chenglu Zhu is an assistant researcher in Artificial Intelligence & Biomedical Image Analysis Lab(Lin Yang's Lab), School of Engineering, Westlake University. His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
