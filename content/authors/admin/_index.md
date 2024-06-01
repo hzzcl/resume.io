@@ -75,7 +75,7 @@ education:
   - area: BEng Computer Science & Technology
     institution: Massachusetts Institute of Technology
     date_start: 2009-09-01
-    date_end: 2013-6-7
+    date_end: 2013-06-07
     # summary: |
     #   GPA: 3.4/4.0
       
