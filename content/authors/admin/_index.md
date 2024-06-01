@@ -121,7 +121,7 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Program Language - Python/C++/Matlab/HTML/Java
         description: ''
         percent: 80
         icon: code-bracket
@@ -129,15 +129,15 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: PhotoShop
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: paint-brush
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Exercising
         description: ''
         percent: 60
         icon: person-simple-walk
