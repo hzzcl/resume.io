@@ -33,7 +33,10 @@ summary: We propose a novel fully automatic 3D framework for simultaneous segmen
 
 
 tags:
-- Source Themes
+- Carotid Segmentation
+- Multi-contrast MR
+- Deep learning
+
 featured: True
 
 # links:
