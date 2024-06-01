@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: darkblue
+        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: Animated-Shape.svg

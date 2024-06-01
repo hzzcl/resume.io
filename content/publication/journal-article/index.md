@@ -1,7 +1,12 @@
 ---
 title: "Cascaded residual U-net for fully automatic segmentation of 3D carotid artery in high-resolution multi-contrast MR images"
 authors:
-- admin
+- Chenglu Zhu
+- Xiaoyan Wang
+- Zhongzhao Teng
+- Shengyong Chen
+- Lizhao Mao
+- Cong Bai
 
 author_notes:
 - "Equal contribution"

@@ -6,7 +6,7 @@ title: 'PathAsst: Generative Foundation AI Assistant for Pathology'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Yuxuan Sun
-  - admin
+  - Chenglu Zhu
   - Sunyi Zheng 
   - Kai Zhang
   - Zhongyi Shui
