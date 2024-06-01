@@ -55,7 +55,7 @@ education:
   - area: PhD Control Science & Engineering
     institution: Zhejiang University of Technology
     date_start: 2014-09-01
-    date_end: 2021-1-13
+    date_end: 2021-01-13
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
