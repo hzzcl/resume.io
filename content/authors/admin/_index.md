@@ -57,10 +57,13 @@ education:
     date_start: 2014-09-01
     date_end: 2021-01-13
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: https://www.researchgate.net/profile/Chenglu-Zhu
+        Supervisor: Shengyong Chen
+        Master’s in Computer Science and Technology, followed by a Ph.D. in Control Science and Technology.
+    # summary: |
+    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: https://www.researchgate.net/profile/Chenglu-Zhu
   # - area: MS Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
@@ -106,6 +109,12 @@ work:
     #   - Migrated infrastructure to a new data center
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - position: Visiting scholar
+    company_name: The University of Adelaide
+    company_url: https://www.adelaide.edu.au
+    company_logo: ''
+    date_start: 2017-10-07
+    date_end: 2019-01-21
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -183,4 +192,4 @@ awards:
 
 ## About Me
 
-Chenglu Zhu is an assistant researcher in Artificial Intelligence & Biomedical Image Analysis Lab(Lin Yang's Lab), School of Engineering, Westlake University. From October 2017 to January 2019, he was a visiting scholar at The University of Adelaide, AU, and now he is currently doing research at AI & Biomedical image analysis Lab, WestLake University. His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
+Chenglu Zhu is an assistant researcher in Artificial Intelligence & Biomedical Image Analysis Lab(Lin Yang's Lab), School of Engineering, Westlake University. From October 2017 to January 2019, he was a visiting scholar at The University of Adelaide, AU His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
