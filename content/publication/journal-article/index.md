@@ -29,7 +29,7 @@ summary: We propose a novel fully automatic 3D framework for simultaneous segmen
 
 tags:
 - Source Themes
-featured: false
+featured: True
 
 # links:
 # - name: ""

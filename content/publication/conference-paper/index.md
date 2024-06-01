@@ -7,6 +7,16 @@ title: 'PathAsst: Generative Foundation AI Assistant for Pathology'
 authors:
   - Yuxuan Sun
   - admin
+  - Sunyi Zheng 
+  - Kai Zhang
+  - Zhongyi Shui
+  - Xiaoxuan Yu 
+  - Yizhi Zhao
+  - Honglin Li
+  - Yunlong Zhang
+  - Ruojia Zhao
+  - Xinheng Lyu
+  - Lin Yang
 
 # Author notes (optional)
 author_notes:
@@ -45,14 +55,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+# url_pdf: ''
+url_code: 'https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology'
+# url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
