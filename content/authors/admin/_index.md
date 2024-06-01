@@ -100,7 +100,7 @@ work:
     company_url: https://www.westlake.edu.cn
     company_logo: ''
     date_start: 2021-03-01
-    date_end: 2023-2-28
+    date_end: 2023-02-28
     # summary: |
     #   Responsibilities include:
     #   - Migrated infrastructure to a new data center
