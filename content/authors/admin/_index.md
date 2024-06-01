@@ -104,12 +104,7 @@ work:
     company_logo: ''
     date_start: 2021-03-01
     date_end: 2023-02-28
-    # summary: |
-    #   Responsibilities include:
-    #   - Migrated infrastructure to a new data center
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Visiting scholar
+  - position: Visitor
     company_name: The University of Adelaide
     company_url: https://www.adelaide.edu.au
     company_logo: ''
