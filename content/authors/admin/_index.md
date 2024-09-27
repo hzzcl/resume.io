@@ -76,7 +76,7 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BEng Computer Science & Technology
-    institution: Massachusetts Institute of Technology
+    institution: China jiliang University
     date_start: 2009-09-01
     date_end: 2013-06-07
     # summary: |
