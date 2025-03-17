@@ -1,5 +1,5 @@
 ---
-title: 'Context-Aware Text-Assisted Multimodal Framework for Cervical Cytology Cell Diagnosis and Chatting'
+title: Context-Aware Text-Assisted Multimodal Framework for Cervical Cytology Cell Diagnosis and Chatting
 authors:
 - Yuxuan Sun
 - Chenglu Zhu
