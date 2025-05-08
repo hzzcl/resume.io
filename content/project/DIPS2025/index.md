@@ -1,7 +1,8 @@
 ---
 title: THE 1ST WESTLAKE DIGITAL AND INTELLIGENT PATHOLOGY SUMMIT
 date: 2025-03-30
-external_link: https://pathology.2025meeting.cn/
+# external_link: https://pathology.2025meeting.cn/
+url_slides: 'https://pathology.2025meeting.cn/'
 tags:
   - Westlake Univiersity
   - Digital Pathology

@@ -19,7 +19,7 @@ sections:
     design:
       # 原来的参数
       # view: article-grid
-      # fill_image: false
+      fill_image: true
       # columns: 3
       #新参数
       # View options: showcase, cards, masonry, list-v2, list-v1, compact, article-grid
@@ -30,7 +30,7 @@ sections:
       # Card view footer options: show (default), hide
       show_card_footer: false
       # Number of items per row or in carousel
-      columns: '1'
+      columns: 1
       # For list-v1 and list-v2 views
       show_dates: false
 ---
