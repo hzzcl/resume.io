@@ -11,7 +11,7 @@ tags:
 
 ![DIPS2025](https://pathology.2025meeting.cn/uploads/20250321/ccd162f856b22ac95e20e2373443450d.jpg)
 
-‌Meeting Completion Record for the "First West Lake Summit on Digital and Intelligent Pathology"‌
+‌# Meeting Completion Record for the "First West Lake Summit on Digital and Intelligent Pathology"‌
 
 The ‌First West Lake Summit on Digital and Intelligent Pathology‌ has been successfully concluded. Held on ‌March 30, 2025‌, at ‌West Lake University’s Yungu Campus‌ (No. 600, Dunyu Road, West Lake District, Hangzhou), the summit brought together leading experts, including ‌academicians from the Chinese Academy of Sciences, directors of top-tier hospitals, engineering pioneers from universities, and pathology thought leaders‌.
 
