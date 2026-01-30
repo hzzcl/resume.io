@@ -75,6 +75,17 @@ sections:
   #     view: article-grid
   #     columns: 1
   - block: collection
+    id: insights
+    content:
+      title: Insights
+      subtitle: Deep dives into technical topics
+      filters:
+        folders:
+          - insights
+    design:
+      view: article-grid
+      columns: 3
+  - block: collection
     id: news
     content:
       title: Recent News
