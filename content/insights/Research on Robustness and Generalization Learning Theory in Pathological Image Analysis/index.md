@@ -46,7 +46,7 @@ In a controlled CIFAR-10 environment with extreme mixed bias (40% label noise + 
 * **Accuracy:** Improved from a baseline (ERM) of **52.34%** to **74.48%**, significantly outperforming existing methods like L2R and HAR.
 * **Real-world Validation:** On the Clothing1M dataset, DAR achieved an accuracy of **76.37%**.
 
-<div style="overflow-x: auto; display: block; width: 100%;">
+{{< scroll-table >}}
 
 | Method | C10 (N=0.2, I=0.1) | C10 (N=0.2, I=0.05) | C10 (N=0.2, I=0.02) | C10 (N=0.4, I=0.1) | C10 (N=0.4, I=0.05) | C10 (N=0.4, I=0.02) | C100 (N=0.2, I=0.1) | C100 (N=0.2, I=0.05) | C100 (N=0.2, I=0.02) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -92,7 +92,7 @@ On the GTA5 $\to$ Cityscapes semantic segmentation task:
 * <mark>Performance:</mark> mIoU increased by **7.5%** over the baseline (from 37.5% to 45.0%).
 * <mark>Efficiency:</mark> Reduced VRAM usage by **2.1GB** and cut adaptation time by **23 seconds**, making deployment on clinical edge devices feasible.
 
-<div style="overflow-x: auto; display: block; width: 100%;">
+{{< scroll-table >}}
 | Method | Setting | Road | Side. | Build. | Wall | Fence | Pole | Light | Sign | Veget. | Terr. | Sky | Pers. | Rider | Car | Truck | Bus | Train | Motor. | Bike | mIoU |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **GTA→CS (Val.)** | | | | | | | | | | | | | | | | | | | | | |
@@ -151,6 +151,7 @@ We found that shallow layers of self-supervised pre-trained networks inherently 
 
 Achieved performance close to supervised methods **without using a single manual annotation**:
 
+{{< scroll-table >}}
 | Methods | Loc | Cnt | Pixel-level IoU | Pixel-level F1 | Object-level Dice | Object-level AJI |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Unet* [20] | ✔ | ✔ | 0.606 | 0.745 | 0.715 | 0.511 |
