@@ -47,6 +47,7 @@ In a controlled CIFAR-10 environment with extreme mixed bias (40% label noise + 
 * **Real-world Validation:** On the Clothing1M dataset, DAR achieved an accuracy of **76.37%**.
 
 <div style="overflow-x: auto; display: block; width: 100%;">
+
 | Method | C10 (N=0.2, I=0.1) | C10 (N=0.2, I=0.05) | C10 (N=0.2, I=0.02) | C10 (N=0.4, I=0.1) | C10 (N=0.4, I=0.05) | C10 (N=0.4, I=0.02) | C100 (N=0.2, I=0.1) | C100 (N=0.2, I=0.05) | C100 (N=0.2, I=0.02) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ERM | 72.18 ± 0.27 | 67.68 ± 0.61 | 61.81 ± 0.63 | 62.21 ± 1.73 | 59.21 ± 2.32 | 52.34 ± 1.04 | 31.16 ± 0.29 | 27.94 ± 1.14 | 25.58 ± 0.72 |
@@ -58,8 +59,10 @@ In a controlled CIFAR-10 environment with extreme mixed bias (40% label noise + 
 | AutoDO | 78.36 ± 0.24 | 73.42 ± 0.64 | 65.44 ± 0.50 | 71.25 ± 0.42 | 66.14 ± 1.46 | 53.31 ± 2.02 | 39.43 ± 1.63 | 32.33 ± 0.58 | 23.01 ± 0.57 |
 | DAR(w/o) | 82.34 ± 0.30 | 78.73 ± 0.64 | 72.26 ± 0.63 | 76.84 ± 0.26 | 72.31 ± 0.46 | 62.18 ± 0.70 | **46.01 ± 0.54** | **39.49 ± 0.64** | **31.42 ± 0.97** |
 | DAR(w) | 82.79 ± 0.13 | **79.50 ± 0.31** | **74.83 ± 0.79** | 77.39 ± 0.33 | **74.48 ± 0.94** | **67.63 ± 0.46** | 45.03 ± 0.53 | 38.02 ± 0.39 | 31.17 ± 0.77 |
-</div>
-<div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 5px;">Table 1: The accuracy results on CIFAR10 and CIFAR100. The training sets are with various noise ratios (N) and imbalance factors (I).</div>
+
+{{< /scroll-table >}}
+
+{{< caption >}}Table 1: The accuracy results on CIFAR10 and CIFAR100. The training sets are with various noise ratios (N) and imbalance factors (I).{{< /caption >}}
 
 ---
 
@@ -121,7 +124,8 @@ On the GTA5 $\to$ Cityscapes semantic segmentation task:
 | +OCL | +TTT | 78.0 | 33.8 | 78.9 | 10.9 | 0.3 | 34.1 | 21.9 | 26.1 | 75.7 | - | 84.8 | 60.8 | 28.6 | 84.3 | - | 43.1 | - | 32.5 | 45.3 | 46.2 |
 | DAFormer | DA | 82.2 | 37.2 | 88.6 | 42.9 | 8.5 | 50.1 | 55.1 | 54.3 | 85.7 | - | 88.0 | 73.6 | 48.6 | 87.6 | - | 62.8 | - | 53.1 | 62.4 | 61.3 |
 | +OCL | +TTT | 81.6 | 36.5 | 88.7 | 43.1 | 8.4 | 50.8 | 55.8 | 55.1 | 86.2 | - | 88.4 | 74.2 | 49.5 | 87.8 | - | 63.2 | - | 54.5 | 62.8 | 61.7 |
-</div>
+
+{{< /scroll-table >}}
 
 ---
 
@@ -160,7 +164,8 @@ Achieved performance close to supervised methods **without using a single manual
 | CyCADA [9] | ✘ | ✘ | - | 0.705 | - | 0.472 |
 | Hou et al. [10] | ✘ | ✘ | - | 0.750 | - | 0.498 |
 | **Ours** | ✘ | ✘ | 0.610 | **0.762** | 0.724 | **0.542** |
-<div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 5px;">Table 3: Results on MoNuSeg. Loc: Localization, Cnt: Contour. * indicates the model is trained from scratch with the same hyperparameter as ours.</div>
+{{< /scroll-table >}}
+{{< caption >}}Table 3: Results on MoNuSeg. Loc: Localization, Cnt: Contour. * indicates the model is trained from scratch with the same hyperparameter as ours.{{< /caption >}}
 
 * **Detection:** **0.811** F1-score on the BCData dataset.
 * **Segmentation:** AJI score of **0.542** on the MoNuSeg dataset.
