@@ -38,7 +38,6 @@ We observed that the feature extractor (Encoder) and the Classifier react differ
 {{% callout note %}}
 **Core Mechanism:** If the main network's gradient diverges from the probe gradient, the algorithm triggers a "Reversed Update," effectively neutralizing the misleading signal from the biased data.
 {{% /callout %}}
-
 ![The complete DAR workflow](fig1.webp "Figure 4: The complete DAR workflow. The auxiliary network generates a gradient direction matrix to guide the decoupled updates of the main Encoder and Classifier.")
 
 ### Results
@@ -47,8 +46,9 @@ In a controlled CIFAR-10 environment with extreme mixed bias (40% label noise + 
 * **Accuracy:** Improved from a baseline (ERM) of **52.34%** to **74.48%**, significantly outperforming existing methods like L2R and HAR.
 * **Real-world Validation:** On the Clothing1M dataset, DAR achieved an accuracy of **76.37%**.
 
+<div style="overflow-x: auto; display: block; width: 100%;">
 | Method | C10 (N=0.2, I=0.1) | C10 (N=0.2, I=0.05) | C10 (N=0.2, I=0.02) | C10 (N=0.4, I=0.1) | C10 (N=0.4, I=0.05) | C10 (N=0.4, I=0.02) | C100 (N=0.2, I=0.1) | C100 (N=0.2, I=0.05) | C100 (N=0.2, I=0.02) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ERM | 72.18 ± 0.27 | 67.68 ± 0.61 | 61.81 ± 0.63 | 62.21 ± 1.73 | 59.21 ± 2.32 | 52.34 ± 1.04 | 31.16 ± 0.29 | 27.94 ± 1.14 | 25.58 ± 0.72 |
 | FL | 69.40 ± 0.56 | 66.17 ± 0.60 | 56.37 ± 2.53 | 61.55 ± 0.40 | 55.89 ± 2.17 | 48.64 ± 1.66 | 31.17 ± 0.91 | 27.40 ± 1.15 | 24.36 ± 0.82 |
 | GCE | 73.76 ± 0.26 | 59.06 ± 0.78 | 55.19 ± 0.23 | 69.22 ± 0.33 | 59.79 ± 0.80 | 52.10 ± 0.37 | 26.97 ± 1.08 | 22.68 ± 0.26 | 17.57 ± 0.39 |
@@ -58,6 +58,7 @@ In a controlled CIFAR-10 environment with extreme mixed bias (40% label noise + 
 | AutoDO | 78.36 ± 0.24 | 73.42 ± 0.64 | 65.44 ± 0.50 | 71.25 ± 0.42 | 66.14 ± 1.46 | 53.31 ± 2.02 | 39.43 ± 1.63 | 32.33 ± 0.58 | 23.01 ± 0.57 |
 | DAR(w/o) | 82.34 ± 0.30 | 78.73 ± 0.64 | 72.26 ± 0.63 | 76.84 ± 0.26 | 72.31 ± 0.46 | 62.18 ± 0.70 | **46.01 ± 0.54** | **39.49 ± 0.64** | **31.42 ± 0.97** |
 | DAR(w) | 82.79 ± 0.13 | **79.50 ± 0.31** | **74.83 ± 0.79** | 77.39 ± 0.33 | **74.48 ± 0.94** | **67.63 ± 0.46** | 45.03 ± 0.53 | 38.02 ± 0.39 | 31.17 ± 0.77 |
+</div>
 <div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 5px;">Table 1: The accuracy results on CIFAR10 and CIFAR100. The training sets are with various noise ratios (N) and imbalance factors (I).</div>
 
 ---
@@ -88,6 +89,7 @@ On the GTA5 $\to$ Cityscapes semantic segmentation task:
 * <mark>Performance:</mark> mIoU increased by **7.5%** over the baseline (from 37.5% to 45.0%).
 * <mark>Efficiency:</mark> Reduced VRAM usage by **2.1GB** and cut adaptation time by **23 seconds**, making deployment on clinical edge devices feasible.
 
+<div style="overflow-x: auto; display: block; width: 100%;">
 | Method | Setting | Road | Side. | Build. | Wall | Fence | Pole | Light | Sign | Veget. | Terr. | Sky | Pers. | Rider | Car | Truck | Bus | Train | Motor. | Bike | mIoU |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **GTA→CS (Val.)** | | | | | | | | | | | | | | | | | | | | | |
@@ -119,7 +121,7 @@ On the GTA5 $\to$ Cityscapes semantic segmentation task:
 | +OCL | +TTT | 78.0 | 33.8 | 78.9 | 10.9 | 0.3 | 34.1 | 21.9 | 26.1 | 75.7 | - | 84.8 | 60.8 | 28.6 | 84.3 | - | 43.1 | - | 32.5 | 45.3 | 46.2 |
 | DAFormer | DA | 82.2 | 37.2 | 88.6 | 42.9 | 8.5 | 50.1 | 55.1 | 54.3 | 85.7 | - | 88.0 | 73.6 | 48.6 | 87.6 | - | 62.8 | - | 53.1 | 62.4 | 61.3 |
 | +OCL | +TTT | 81.6 | 36.5 | 88.7 | 43.1 | 8.4 | 50.8 | 55.8 | 55.1 | 86.2 | - | 88.4 | 74.2 | 49.5 | 87.8 | - | 63.2 | - | 54.5 | 62.8 | 61.7 |
-<div style="text-align: center; font-size: 0.9em; color: #555; margin-top: 5px;">Table 2: Comparison of the mIoU (%) on the Cityscapes validation set for GTA→CS and Synthia→CS. All results are based on DeepLab with ResNet101. The gray line reports the results of our OCL.</div>
+</div>
 
 ---
 
