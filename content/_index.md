@@ -64,7 +64,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      css_class: dark
+      css_class: "dark text-white"
       background:
         color: black
         image:
@@ -94,7 +94,7 @@ sections:
         folders:
           - insights
     design:
-      view: card
+      view: article-grid
       columns: 2
   - block: collection
     id: news
