@@ -1,7 +1,7 @@
 ---
 title: Research on Robustness and Generalization Learning Theory in Pathological Image Analysis
 summary: A comprehensive study on overcoming mixed data biases, cross-center domain shifts, and annotation costs in pathological image analysis through robust learning theories.
-date: 2024-05-20
+date: 2026-01-29
 tags:
   - Robustness
   - Pathological Images
