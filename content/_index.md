@@ -83,8 +83,8 @@ sections:
         folders:
           - insights
     design:
-      view: article-grid
-      columns: 3
+      view: card
+      columns: 2
   - block: collection
     id: news
     content:

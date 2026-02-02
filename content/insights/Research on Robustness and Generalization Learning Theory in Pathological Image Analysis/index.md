@@ -16,7 +16,6 @@ image:
   preview_only: false
   caption: 'Image credit: [**Yang Lin Lab**](https://www.yanglinlab.com)'
 ---
-![The Graphabstract](abs.jpg)
 Clinical translation of pathological image analysis faces three fundamental theoretical hurdles: mixed data biases (co-occurring noise and long-tail distributions), cross-center domain shifts, and the need for unsupervised annotation.
 
 This project addresses these issues through **gradient optimization dynamics**, **test-time adaptation mechanisms**, and **self-supervised representation mining**. Below, we detail our latest findings in gradient-aware decoupling (DAR), stable test-time training (Stable TTT), unsupervised cell recognition (PSM), and robustness benchmarking for pathological foundation models.
