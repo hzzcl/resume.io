@@ -13,7 +13,7 @@ all_day: true
 authors:
   - Chenglu Zhu
 image:
-  caption: 'DIPS2025 [**DIPS2025**][(https://unsplash.com/photos/bzdhc5b3Bxs](https://pathology.2025meeting.cn/uploads/20250321/ccd162f856b22ac95e20e2373443450d.jpg))'
+  caption: 'DIPS2025 [**DIPS2025**][(https://engineering.westlake.edu.cn/NewsEvents/RecentEvents/202503/t20250324_53684.shtml](https://inews.gtimg.com/om_bt/OV1n4Xn6UV4yJA6rM0LvuKCUG3uj4QmQxiud5L8o_r82UAA/641))'
 
 slides: ""
 summary: Congratulations on the Successful Conclusion of the First West Lake Summit on Digital and Intelligent Pathology.
