@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Assistant Researcher
+role: Associate Professor (Researcher)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -87,12 +87,18 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Assistant Researcher
+  - position: Associate Professor (Researcher)
+    company_name: Westlake University
+    company_url: https://www.westlake.edu.cn
+    company_logo: ''
+    date_start: 2026-02-05
+    date_end: ''
+  - position: Assistant Professor (Researcher)
     company_name: Westlake University
     company_url: https://www.westlake.edu.cn
     company_logo: ''
     date_start: 2023-03-01
-    date_end: ''
+    date_end: 2026-02-04
     # summary: |2-
     #   Responsibilities include:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -187,4 +193,4 @@ awards:
 
 ## About Me
 
-Chenglu Zhu is an assistant researcher in Artificial Intelligence & Biomedical Image Analysis Lab(Lin Yang's Lab), School of Engineering, Westlake University. His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
+Chenglu Zhu is an Associate Professor (Researcher) in Artificial Intelligence & Biomedical Image Analysis Lab (Lin Yang's Lab), School of Engineering, Westlake University. His current research interests include image processing and computer vision, especially the artificial intelligence of medical image analysis. 
